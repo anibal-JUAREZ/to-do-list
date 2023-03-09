@@ -1,0 +1,8 @@
+.dark-mode-body{
+    background-color: hsl(235, 21%, 11%);
+}
+
+.dark-mode-task{
+    background-color: hsl(235, 24%, 19%) !important;
+    color: #fff;
+}

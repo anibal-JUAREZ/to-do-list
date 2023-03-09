@@ -1,0 +1,60 @@
+.task{
+   width: 34%;
+   background-color: #fff;
+   padding: 1rem;
+   border-radius: .25rem;
+   display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+   margin-bottom: .2rem;
+}
+
+.task .check-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid rgb(210, 211, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.task-completed{
+    background-image: linear-gradient(#57ddff, #c058f3);
+    border: none;
+}
+
+.task-completed-paragraph{
+    color: hsl(233, 11%, 84%);
+    text-decoration: line-through;
+}
+
+.task svg{
+    margin-left: 1rem;
+}
+
+.task p{
+    width: 80%;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.task p:hover{
+   font-weight: 700;
+}
+
+.task img{
+    width: 50%;
+}
+
+.task svg{
+    cursor: pointer;
+}
+
+@media screen and (max-width:460px){
+    .task{
+        width: 90%;
+    }
+}
